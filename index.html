@@ -14,12 +14,55 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts.js" defer></script>
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">Story</a>
+    </nav>
 
-    <h1>Week 5, Part 2</h1>
+
+   <main class="container">
+
+     <div class="starter-template">
+       <h1>Story Generator</h1>
+       <h2 class="lead">Enter new names and read a story!</h2>
+     </div>
+
+   <!-- /.container -->
+
+   <div>
+         <label for="customName1">Enter name #1</label>
+         <input id="customName1" type="text" placeholder="name">
+   </div>
+
+   <div>
+         <label for="customName2">Enter name #2</label>
+         <input id="customName2" type="text" placeholder="name">
+   </div>
+
+       <div class="input">
+         <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+         <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+         <label for="es">ES</label><input id="es" type="radio" name="ukus" value="es">
+       </div>
+
+       <div>
+         <button class="randomize">Generate A Story</button>
+       </div>
+
+  </main>
+
+       <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+       <p class="story" id="storyImg"></p>
+
+         <img  id="image1" src="./img/photo-1482517967863-00e15c9b44be.jpg" class="image1" alt="Christmas Image">
+         <img id="image2" src="./img/photo-1510673209043-af92bcbee205.jpg" alt="">
+         <img id="image3" src="./img/photo-1572602547000-46f762c5723c.jpg" alt="">
+
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 
 	</body>
 

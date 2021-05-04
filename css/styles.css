@@ -1,0 +1,70 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent; }
+
+body {
+  margin: 0;
+  font-family: "JollyGoodProper-Light";
+  font-size: 1rem;
+  padding-top: 5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  background-color: #caf1ff; }
+
+.container {
+  background-image: url("..//img/Chalkboard.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 25px; }
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center; }
+
+#image1, #image2, #image3 {
+  width: 150px;
+  height: auto;
+  display: none;
+  margin-left: 880px;
+  border-radius: 30px; }
+
+*, ::after, ::before {
+  box-sizing: border-box; }
+
+h1 {
+  padding: 60px;
+  color: #82cfea; }
+
+h2 {
+  padding-top: -15px; }
+
+.input {
+  padding: 20px;
+  border-radius: 20px;
+  opacity: 70%; }
+
+.randomize {
+  background: gray;
+  color: #fff;
+  border: 1px solid #fff 0.3;
+  width: 270px;
+  border-radius: 15px;
+  margin-bottom: 43px; }
+
+.storyInput {
+  align-items: center;
+  align-content: center; }
+
+p {
+  color: #252f33;
+  margin-top: 45px;
+  margin-left: 90px;
+  border-radius: 50px;
+  width: 90%;
+  height: 150px;
+  padding: 45px;
+  line-height: 2rem; }
