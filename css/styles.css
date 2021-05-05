@@ -47,7 +47,7 @@ h1 {
 .randomize {
   background: gray;
   color: #fff;
-  border: 1px solid 0.25;
+  border: 1px solid 0.25px;
   width: 270px;
   border-radius: 15px;
   margin-bottom: 43px; }
